@@ -1,2 +1,29 @@
-# sistema-estoque-vendas
-Lightweight Python inventory and sales manager: clean CLI/GUI to track products, stock levels, sales and backups. Uses Excel for storage, modular code (app.py, database.py, produtos.py) and simple validation utilities. Designed for quick setup, clear reports and easy customization.
+# Sistema de Estoque e Vendas
+
+Um sistema simples e funcional para gerenciar produtos, estoque e vendas.  
+Desenvolvido em **Python**, com foco em praticidade, organização e fácil uso.
+
+---
+
+## 🚀 Funcionalidades
+- Cadastro de produtos  
+- Controle de estoque com quantidades atualizadas  
+- Registro de vendas  
+- Backup automático  
+- Operações com planilhas Excel  
+- Interface simples em Python
+
+---
+
+## 🗂 Estrutura do Projeto
+```bash
+meuprojeto/
+│
+├── app.py              # Interface principal
+├── config.py           # Configurações globais
+├── database.py         # Leitura e escrita no Excel
+├── utils.py            # Funções comuns
+│
+├── backups/            # Backups automáticos
+├── Pesquisa/           # Materiais de pesquisa
+└── __pycache__/        # Arquivos compilados (ignorados)
