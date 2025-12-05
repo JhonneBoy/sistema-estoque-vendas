@@ -38,3 +38,7 @@ Pesquisa/
 *.db
 *.sqlite
 *.json
+
+# Ignorar executáveis e pasta dist
+/dist/
+*.exe
