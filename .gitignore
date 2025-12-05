@@ -1,0 +1,40 @@
+# ==== Python caches ====
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ==== Virtual environments (se usar) ====
+venv/
+.env/
+.venv/
+
+# ==== Arquivos temporários do sistema ====
+*.log
+*.tmp
+*.temp
+
+# ==== Arquivos de Excel (banco de dados) ====
+# Evita enviar dados reais do sistema
+*.xlsx
+*.xlsm
+*.xlsb
+
+# ==== Backups do sistema ====
+backups/
+
+# ==== Configurações pessoais de IDE ====
+.vscode/
+.idea/
+
+# ==== Arquivos gerados por testes ====
+*.bak
+*.old
+
+# ==== Sistema específico do seu projeto ====
+Pesquisa/
+
+# ==== Outros arquivos que não devem ir ao repositório ====
+*.db
+*.sqlite
+*.json

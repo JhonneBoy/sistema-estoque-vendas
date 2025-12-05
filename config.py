@@ -1,0 +1,7 @@
+EXCEL_FILE = "produtos.xlsx"
+BACKUP_DIR = "backups"
+LOW_STOCK_THRESHOLD = 5
+
+LOGIN_SHEET = "Login"
+DEFAULT_ADMIN_USER = "admin"
+DEFAULT_ADMIN_PASS = "1234"
