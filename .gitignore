@@ -1,44 +1,33 @@
-# ==== Python caches ====
+# Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+*.pycache
+*.pdb
+*.egg-info/
+dist/
+*.egg
 
-# ==== Virtual environments (se usar) ====
-venv/
-.env/
-.venv/
+# Build / PyInstaller
+build/
+dist/
+*.spec
 
-# ==== Arquivos temporários do sistema ====
-*.log
-*.tmp
-*.temp
-
-# ==== Arquivos de Excel (banco de dados) ====
-# Evita enviar dados reais do sistema
-*.xlsx
-*.xlsm
-*.xlsb
-
-# ==== Backups do sistema ====
-backups/
-
-# ==== Configurações pessoais de IDE ====
+# VSCode / IDEs
 .vscode/
 .idea/
 
-# ==== Arquivos gerados por testes ====
-*.bak
-*.old
+# Sistema operacional
+.DS_Store
+Thumbs.db
 
-# ==== Sistema específico do seu projeto ====
-Pesquisa/
+# Arquivos do Excel temporários
+~$*.xlsx
 
-# ==== Outros arquivos que não devem ir ao repositório ====
-*.db
-*.sqlite
-*.json
+# PDF / arquivos de nota fiscal podem ficar se quiser versionar
+# NotaFiscal_*.pdf
 
-# Ignorar executáveis e pasta dist
-/dist/
-*.exe
+# Dependências
+venv/
+.env

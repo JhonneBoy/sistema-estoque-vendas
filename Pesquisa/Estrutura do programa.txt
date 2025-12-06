@@ -1,0 +1,10 @@
+meuprojeto/
+│ app.py                ← sua interface principal
+│ database.py           ← leitura/escrita no Excel
+│ products.py           ← funções e telas de produtos
+│ sales.py              ← funções e telas de vendas
+│ sellers.py            ← funções e telas de vendedores
+│ dashboard.py          ← gráficos e relatórios
+│ utils.py              ← coisas comuns (datas, mensagens, validações)
+│ config.py             ← constantes globais
+│ produtos.xlsx
