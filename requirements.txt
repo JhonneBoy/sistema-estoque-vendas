@@ -1,0 +1,5 @@
+pandas
+ttkbootstrap
+matplotlib
+openpyxl
+reportlab
