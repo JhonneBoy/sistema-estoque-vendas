@@ -8,7 +8,8 @@ Desenvolvido em **Python**, com foco em praticidade, organização e fácil uso.
 ## 🚀 Funcionalidades
 - Cadastro de produtos  
 - Controle de estoque com quantidades atualizadas  
-- Registro de vendas  
+- Registro de vendas 
+- Geração e gestão de NF 
 - Backup automático  
 - Operações com planilhas Excel  
 - Interface simples em Python
