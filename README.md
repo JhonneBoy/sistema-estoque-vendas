@@ -76,7 +76,6 @@ Funcionalidades Principais
         ├─ Visualização rápida de produtos com estoque baixo.
         ├─ Nota Fiscal
         ├─ Geração de PDF de nota fiscal usando o modelo nota-modelo.png.
-        ├─ Campos personalizáveis, incluindo:
         ├─ Número NF, Série, Data
         ├─ CNPJ emitente e destinatário
         ├─ CFOP, NCM
