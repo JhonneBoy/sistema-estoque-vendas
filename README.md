@@ -55,7 +55,7 @@ Bibliotecas principais:
 ---
 
 ## 🗂 Utilize as abas para
-
+```bash
 Funcionalidades Principais
 |
 └─ Produtos
@@ -81,10 +81,10 @@ Funcionalidades Principais
         ├─ CNPJ emitente e destinatário
         ├─ CFOP, NCM
         └─ Quantidade, Valor Unitário, ICMS, IPI, Frete, Placa
-
+```
 ---
 
-## 🗂 Build com PyInstaller
+## Build com PyInstaller
 
 Caso queira gerar o executável do projeto:
 pyinstaller --onefile app.py
@@ -95,7 +95,7 @@ Arquivos gerados aparecerão na pasta build/ conforme a estrutura acima.
 
 ---
 
-## 🗂 Observações
+## Observações
 
 - O Excel (produtos.xlsx) é obrigatório para inicialização do sistema.
 
